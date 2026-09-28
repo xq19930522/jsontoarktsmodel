@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  自定义插件仓库描述文件。
+  把这个文件和 build/distributions/json-to-arkts-1.0.0.zip 一起放到同一个 HTTP 目录下
+  （updatePlugins.xml 与 zip 的相对路径由 url 属性决定），
+  然后在 IDE 的 Settings -> Plugins -> 齿轮 -> Manage Plugin Repositories 中添加该 URL 即可在线安装。
+-->
+<plugins>
+    <plugin id="com.sincegame.jsontomodel"
+            url="json-to-arkts-1.0.0.zip"
+            version="1.0.0">
+        <name>JSON to ArkTS Model</name>
+        <description>Paste JSON, generate ArkTS model interfaces/classes. Supports interface/class output and parameterized constructor.</description>
+        <change-notes>Initial release.</change-notes>
+    </plugin>
+</plugins>

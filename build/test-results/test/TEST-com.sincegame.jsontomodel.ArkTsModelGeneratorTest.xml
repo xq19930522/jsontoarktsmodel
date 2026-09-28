@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-09-28T10:09:52.757Z" hostname="DESKTOP-2II6AFU" time="0.012">
+  <properties/>
+  <testcase name="invalidJsonThrows" classname="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" time="0.005"/>
+  <testcase name="typeConflictKeepsFirstRealType" classname="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" time="0.001"/>
+  <testcase name="pascalCaseConversion" classname="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" time="0.0"/>
+  <testcase name="classWithParameterizedConstructor" classname="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" time="0.0"/>
+  <testcase name="classWithDefaultConstructor" classname="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" time="0.0"/>
+  <testcase name="escapedAndUnicodeStrings" classname="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" time="0.0"/>
+  <testcase name="interfaceGenerationMatchesHtmlBehavior" classname="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" time="0.0"/>
+  <testcase name="nonObjectRootThrows" classname="com.sincegame.jsontomodel.ArkTsModelGeneratorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

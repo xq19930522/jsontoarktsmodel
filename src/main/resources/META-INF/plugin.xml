@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.sincegame.jsontomodel</id>
+    <name>JSON to ArkTS Model</name>
+    <vendor>sincegame</vendor>
+
+    <!-- 仅依赖平台模块，保证 IntelliJ IDEA 与 DevEco Studio 均可加载 -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <action id="JsonToArkTS.Generate"
+                class="com.sincegame.jsontomodel.GenerateArkTsModelAction"
+                text="JSON to ArkTS Model..."
+                description="Generate ArkTS model interfaces/classes from JSON">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="alt shift J"/>
+        </action>
+    </actions>
+</idea-plugin>
